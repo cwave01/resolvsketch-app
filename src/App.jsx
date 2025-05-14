@@ -1,1 +1,10 @@
-export default function App() { return <h1>Welcome to ResolvSketch!</h1>; }
+function App() {
+  return (
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h1>🎯 ResolvSketch App Is Live!</h1>
+      <p>Welcome to your deployed sketching tool.</p>
+    </div>
+  );
+}
+
+export default App;
